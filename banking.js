@@ -1,8 +1,8 @@
 document.getElementById("deposit-button").addEventListener('click', function(){
-  const amount = document.getElementById("deposit-input").value;
-  const amountA = parseFloat(amount);
-  const newAmount = document.getElementById('deposit-total').innerText;
-  const neAmount = parseFloat(newAmount);
+ 
+  const amountA = parseFloat(document.getElementById("deposit-input").value);
+  
+  const neAmount = parseFloat(document.getElementById('deposit-total').innerText);
   document.getElementById('deposit-total').innerText = neAmount + amountA;
 
 
